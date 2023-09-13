@@ -1,0 +1,9 @@
+tmc:
+  auth:
+    tokenUrl: "https://not.my.auth.com"
+    clientId: "fakeId" # SHOULD BE STORED IN YOUR ENVIRONMENT
+    clientSecret: "fakeSecret" # SHOULD BE STORED IN YOUR ENVIRONMENT
+  feed-consumer:
+    streamUrl: "https://not.my.stream.com"
+    flow: "fakeFlow" # SHOULD BE STORED IN YOUR ENVIRONMENT
+    hoursOfHistory: 1
